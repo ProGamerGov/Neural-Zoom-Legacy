@@ -11,6 +11,15 @@ The script is capable of continuing where you left off if it sees all the previo
 
 ---
 
+#Requirements
+
+ImageMagick can be installed on Ubuntu with:
+
+`sudo apt-get install imagemagick`
+
+
+---
+
 #Arguments
 
 `zoom_value`: The number of pixels subtracted from the width and height of your initial content image.
