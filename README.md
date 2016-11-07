@@ -8,6 +8,7 @@ Copy this script to neural-style directory, then run:
 `./neural_zoom.sh input_file style_file zoom_value rotation_value num_frames`
 
 The script is capable of continuing where you left off if it sees all the previous images up to where you stopped. So it can be a good idea to save all of the images it produces, so that you can always make your gifs/mp4 videos longer.
+
 ---
 
 #Arguments
