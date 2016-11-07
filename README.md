@@ -48,6 +48,14 @@ https://i.imgur.com/UCWl54o.gifv
 
 ---
 
+#Known Issues
+
+* Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment.
+
+* The zoom value is tied to the original image, not each image output. Thus the chosen value does not carry as much weight as it should, if any. ([neural-zoom-test.sh](https://github.com/ProGamerGov/Neural-Zoom/blob/master/neural-zoom-test.sh) should hopefully fix this problem.)
+
+---
+
 # Free and Open Source Gif/Video Making Tools: 
 
 These tools are for putting your frames together into a video or gif. There are plenty of tools that exist for gif and video creation, so use whatever works well for you.
@@ -56,13 +64,6 @@ These tools are for putting your frames together into a video or gif. There are 
 
 * Linux: https://www.ffmpeg.org
 
-
-
 ---
 
-#Known Issues
-
-* Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment.
-
-* The zoom value is tied to the original image, not each image output. Thus the chosen value does not carry as much weight as it should, if any. ([neural-zoom-test.sh](https://github.com/ProGamerGov/Neural-Zoom/blob/master/neural-zoom-test.sh) should hopefully fix this problem.)
 
