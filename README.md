@@ -52,5 +52,5 @@ https://i.imgur.com/UCWl54o.gifv
 
 * Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment.
 
-* The zoom value is tied to the original image, not each image output. Thus the chosen value does not carry as much weight as it should, if any. (neural-zoom-test.sh should hopefully fix this problem)
+* The zoom value is tied to the original image, not each image output. Thus the chosen value does not carry as much weight as it should, if any. ([neural-zoom-test.sh](https://github.com/ProGamerGov/Neural-Zoom/blob/master/neural-zoom-test.sh) should hopefully fix this problem.)
 
