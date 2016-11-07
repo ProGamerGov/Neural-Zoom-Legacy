@@ -24,3 +24,9 @@ Copy this script to neural-style directory, then run:
 If you face a permission error, try using chmod to fix the issue: 
 
 `chmod u+x ./neural_zoom.sh`
+
+--- 
+
+#Example Outputs: 
+
+![](https://i.imgur.com/UCWl54o.gif)
