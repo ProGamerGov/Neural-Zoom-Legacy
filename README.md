@@ -27,6 +27,6 @@ If you face a permission error, try using chmod to fix the issue:
 
 --- 
 
-#Example Outputs: 
+#Example Output(s): 
 
-![](https://i.imgur.com/UCWl54o.gifv)
+https://i.imgur.com/UCWl54o.gifv
