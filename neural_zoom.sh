@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
- Check for output directory, and create it if missing
+ #Check for output directory, and create it if missing
 if [ ! -d "$output" ]; then
   mkdir output
 fi
