@@ -48,5 +48,7 @@ https://i.imgur.com/UCWl54o.gifv
 
 #Known Issues
 
-* Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment. 
+* Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment.
+
+* The zoom value is tied to the original image, not each image output.
 
