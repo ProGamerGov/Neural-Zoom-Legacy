@@ -22,7 +22,7 @@ ImageMagick can be installed on Ubuntu with:
 
 #Arguments
 
-`zoom_value`: The number of pixels subtracted from the width and height of your initial content image.
+`zoom_value`: The number of pixels subtracted from the width and height of your initial content image between each "frame".
 
 `rotation_value`: The number of degrees the image is rotated by between frames.
 
