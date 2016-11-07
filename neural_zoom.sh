@@ -1,15 +1,11 @@
 #!/bin/bash -x
 
- #Check for output directory, and create it if missing
+ Check for output directory, and create it if missing
 if [ ! -d "$output" ]; then
   mkdir output
 fi
 
-
 main(){
-
-    output="./output"
-
     # 1. input image
     input=$1
     input_file=`basename $input`
@@ -20,7 +16,8 @@ main(){
     style_dir=`dirname $style`
     style_file=`basename $style`
     style_name="${style_file%.*}"
-
+    
+    output="./output"
 
     # 4. Zoom value
     zoom=$3
@@ -72,6 +69,7 @@ out_file="${v_frames}_${clean_name}.png"
 neural_style $input $style $out_file
 
 cp $out_file $output/$out_file
+ 
 
 done
 
@@ -83,8 +81,8 @@ neural_style(){
     echo "Neural Style Transfering "$1
     if [ ! -s $3 ]; then
         th neural_style.lua -content_image $1 -style_image $2 -output_image $3 \
-	 	-image_size 1000 -print_iter 100 -backend cudnn -gpu 0 -save_iter 0 \
-                -style_weight 20 -num_iterations 10 
+            			-image_size 1000 -print_iter 100 -backend cudnn -gpu 0 -save_iter 0 \
+                		-style_weight 20 -num_iterations 10 
                 #-original_colors 1
     fi
     if [ ! -s $3 ] && [ $retry -lt 3 ] ;then
