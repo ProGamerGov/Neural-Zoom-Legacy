@@ -29,4 +29,4 @@ If you face a permission error, try using chmod to fix the issue:
 
 #Example Outputs: 
 
-![](https://i.imgur.com/UCWl54o.gif)
+![](https://i.imgur.com/UCWl54o.gifv)
