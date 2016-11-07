@@ -50,9 +50,11 @@ https://i.imgur.com/UCWl54o.gifv
 
 # Free and Open Source Gif/Video Making Tools: 
 
+These tools are for putting your frames together into a video or gif. There are plenty of tools that exist for gif and video creation, so use whatever works well for you.
+
 * Windows and OSX: http://instagiffer.com
 
-* Linux: https://www.ffmpeg.org/
+* Linux: https://www.ffmpeg.org
 
 
 
