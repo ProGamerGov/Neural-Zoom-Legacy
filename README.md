@@ -29,6 +29,13 @@ If you face a permission error, try using chmod to fix the issue:
 
 --- 
 
-#Example Output(s): 
+#Example Outputs
 
 https://i.imgur.com/UCWl54o.gifv
+
+---
+
+#Known Issues
+
+* Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment. 
+
