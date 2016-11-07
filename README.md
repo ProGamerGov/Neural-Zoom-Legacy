@@ -42,6 +42,8 @@ If you face a permission error, try using chmod to fix the issue:
 
 https://i.imgur.com/UCWl54o.gifv
 
+![](https://i.imgur.com/jcO0qpN.gif)
+
 ---
 
 #Known Issues
