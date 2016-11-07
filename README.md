@@ -48,6 +48,16 @@ https://i.imgur.com/UCWl54o.gifv
 
 ---
 
+# Free and Open Source Gif/Video Making Tools: 
+
+* Windows and OSX: http://instagiffer.com
+
+* Linux: https://www.ffmpeg.org/
+
+
+
+---
+
 #Known Issues
 
 * Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment.
