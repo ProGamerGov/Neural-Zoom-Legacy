@@ -5,6 +5,10 @@ if [ ! -d "$output" ]; then
   mkdir output
 fi
 
+#if [ ! -d "$output_crop" ]; then
+#  mkdir output_crop
+#fi
+
 ##############################################################################################
 
 main(){
@@ -20,6 +24,7 @@ main(){
     style_name="${style_file%.*}"
     
     output="./output"
+    #output_crop="./output_crop"
 
     # 4. Zoom value
     zoom=$3
@@ -62,6 +67,9 @@ do
 width=`convert $out_file -format "%w" info:`
 height=`convert $out_file -format "%h" info:`
 
+#width=`convert $output_crop/$out_file -format "%w" info:`
+#height=`convert $output_crop/$out_file -format "%h" info:`
+
 #Calculate the new cropped dimensions of the new image
 widthcrop=`echo $width $zoom | awk '{print $1-$2}'`
 heightcrop=`echo $height $zoom | awk '{print $1-$2}'`
@@ -69,6 +77,8 @@ heightcrop=`echo $height $zoom | awk '{print $1-$2}'`
 input=$outfile 
 
 convert -rotate $rotation_value -gravity center -crop "$widthcrop"x"$heightcrop"+0+0 $out_file "${v_frames}_${clean_name}.png"
+
+#convert -rotate $rotation_value -gravity center -crop "$widthcrop"x"$heightcrop"+0+0 $output_crop/$out_file "${v_frames}_${clean_name}.png"
 
 input="${v_frames}_${clean_name}.png"
 
@@ -79,8 +89,8 @@ out_file="${v_frames}_${clean_name}.png"
 neural_style $input $style $out_file
 
 cp $out_file $output/$out_file
+#cp $out_file $output_crop/$out_file
  
-
 done
 
 ##############################################################################################
