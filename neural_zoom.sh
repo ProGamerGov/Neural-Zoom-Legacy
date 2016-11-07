@@ -1,11 +1,15 @@
 #!/bin/bash -x
 
-# Check for output directory, and create it if missing
-#if [ ! -d "$output" ]; then
-#  mkdir output
-#fi
+ Check for output directory, and create it if missing
+if [ ! -d "$output" ]; then
+  mkdir output
+fi
+
 
 main(){
+
+    output="./output"
+
     # 1. input image
     input=$1
     input_file=`basename $input`
@@ -67,6 +71,7 @@ out_file="${v_frames}_${clean_name}.png"
 
 neural_style $input $style $out_file
 
+cp $out_file $output/$out_file
 
 done
 
