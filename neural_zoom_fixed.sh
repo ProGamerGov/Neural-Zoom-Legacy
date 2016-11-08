@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+#https://gist.github.com/ProGamerGov/7b818549254065d1ae2014774a821feb
+
  Check for output directory, and create it if missing
 if [ ! -d "$output" ]; then
   mkdir output
