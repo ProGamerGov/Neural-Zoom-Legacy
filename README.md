@@ -9,7 +9,9 @@ Copy this script to neural-style directory, then run:
 
 The script is capable of continuing where you left off if it sees all the previous images up to where you stopped. So it can be a good idea to save all of the images it produces, so that you can always make your gifs/mp4 videos longer.
 
-All of the frames after being run through Neural-Style can be found inside a folder the script creates called "output".
+All of the frames after being run through Neural-Style can be found inside a folder the script creates called "output". 
+
+If you wish to continue where you left off, make sure you save the frames that are outputted into the Neural-Style directory in additon to the frames saved in the output directory. You can also continue where you left off by simply using your last frame as your new content image.
 
 ---
 
