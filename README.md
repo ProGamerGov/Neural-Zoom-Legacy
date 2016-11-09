@@ -30,12 +30,12 @@ If you wish to continue where you left off, make sure you save the frames that a
 
 `zoom_value`: The number of pixels subtracted from the width and height of your initial content image between each "frame".
 
-`rotation_value`: The number of degrees the image is rotated by between frames.
+`rotation_value`: The number of degrees the image is rotated by between frames. Use a value of "`0`" to have no rotation between frames.
 
 `num_frames`: The total number of frames/images you want the script to create.
 
 ---
-
+ 
 #Troubleshooting
 
 If you face a permission error, try using chmod to fix the issue: 
