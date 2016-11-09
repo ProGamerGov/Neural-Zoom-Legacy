@@ -56,7 +56,7 @@ https://i.imgur.com/1880gPU.gifv
 
 #Known Issues
 
-* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output".
+* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". 
 
 
 ---
