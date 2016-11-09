@@ -56,9 +56,8 @@ https://i.imgur.com/1880gPU.gifv
 
 #Known Issues
 
-* Your input image needs to be smaller than your `-image_size` parameter for it to work properly at the moment.
+* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output".
 
-* The zoom value is tied to the original image, not each image output. Thus the chosen value does not carry as much weight as it should, if any. ([neural-zoom-test.sh](https://github.com/ProGamerGov/Neural-Zoom/blob/master/neural-zoom-test.sh) should hopefully fix this problem.)
 
 ---
 
