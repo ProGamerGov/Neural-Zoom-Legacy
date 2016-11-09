@@ -17,6 +17,8 @@ If you wish to continue where you left off, make sure you save the frames that a
 
 #Requirements
 
+[Neural-Style](https://github.com/jcjohnson/neural-style) or a [similar style transfer system](https://github.com/jcjohnson/neural-style/wiki/Similar-to-Neural-Style).
+
 ImageMagick can be installed on Ubuntu with:
 
 `sudo apt-get install imagemagick`
