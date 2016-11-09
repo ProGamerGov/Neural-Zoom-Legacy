@@ -46,7 +46,7 @@ https://i.imgur.com/UCWl54o.gifv
 
 ![](https://i.imgur.com/jcO0qpN.gif)
 
-Zoom vlaue of 5:
+Zoom value of 5:
 
 https://i.imgur.com/1880gPU.gifv
 
