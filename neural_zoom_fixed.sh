@@ -30,12 +30,12 @@ main(){
     #6. Number of frames
     num_frames=$5
 
-    width=`convert $input_file -format "%w" info:`
-    height=`convert $input_file -format "%h" info:`
+    #width=`convert $input_file -format "%w" info:`
+    #height=`convert $input_file -format "%h" info:`
 
 #Calculate the new cropped dimensions of the new image
-widthcrop=`echo $width $zoom | awk '{print $1-$2}'`
-heightcrop=`echo $height $zoom | awk '{print $1-$2}'`
+#widthcrop=`echo $width $zoom | awk '{print $1-$2}'`
+#heightcrop=`echo $height $zoom | awk '{print $1-$2}'`
 
 ###############################################
 
@@ -54,8 +54,8 @@ neural_style $input $style $out_file1
 
 
 #Get the width and height  
-width=`convert "0_${clean_name}.png" -format "%w" info:`
-height=`convert "0_${clean_name}.png" -format "%h" info:`
+width=`convert "${v_frames}_${clean_name}.png" -format "%w" info:`
+height=`convert "${v_frames}_${clean_name}.png" -format "%h" info:`
 #Calculate the new cropped dimensions of the new image
 widthcrop=`echo $width $zoom | awk '{print $1-$2}'`
 heightcrop=`echo $height $zoom | awk '{print $1-$2}'`
