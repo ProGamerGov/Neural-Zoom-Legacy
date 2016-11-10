@@ -1,0 +1,11 @@
+for f in * ; do mv "$f" "00""$f" ; done
+
+
+#Imagemagick
+
+convert ${output}*.png a.gif
+
+convert *.png .mp4
+
+#convert *.png a.gif
+#convert *.png a.mp4
