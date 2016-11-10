@@ -76,6 +76,10 @@ These tools are for putting your frames together into a video or gif. There are 
 
 * Linux: https://www.ffmpeg.org
 
+For editing all the frames at once with the same settings: 
+
+GIMP Plug-in: http://www.alessandrofrancesconi.it/projects/bimp/
+
 ---
 
 
