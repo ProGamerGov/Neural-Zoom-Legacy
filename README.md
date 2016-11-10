@@ -54,9 +54,9 @@ https://i.imgur.com/1880gPU.gifv
 
 Zoom value of 37.5:
 
-2x Speed: https://gfycat.com/TinyPartialCormorant
+https://gfycat.com/DirectGloomyGar
 
-4x Speed: https://gfycat.com/RequiredScholarlyAmazontreeboa
+GIMP Auto-Color: https://gfycat.com/AfraidAcademicGnu
 
 
 ---
