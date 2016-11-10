@@ -56,7 +56,9 @@ https://i.imgur.com/1880gPU.gifv
 
 Zoom value of 37.5:
 
-https://gfycat.com/RequiredScholarlyAmazontreeboa
+2x Speed: https://gfycat.com/TinyPartialCormorant
+4x Speed: https://gfycat.com/RequiredScholarlyAmazontreeboa
+
 
 ---
 
