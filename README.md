@@ -1,7 +1,4 @@
 # Neural-Zoom
-
-
-
 ---
 
 #Requirements
