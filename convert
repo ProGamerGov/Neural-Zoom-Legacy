@@ -1,4 +1,5 @@
-for f in * ; do mv "$f" "00""$f" ; done
+#Add another 0 prefix to the images, so that ImagickMagick correctly recognizes the image order
+for f in * ; do mv "$f" "0""$f" ; done
 
 
 #Imagemagick
