@@ -54,6 +54,10 @@ Zoom value of 5:
 
 https://i.imgur.com/1880gPU.gifv
 
+Zoom value of 37.5:
+
+https://github.com/ProGamerGov/Neural-Zoom
+
 ---
 
 #Known Issues
