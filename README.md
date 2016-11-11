@@ -93,6 +93,8 @@ https://i.imgur.com/Jkd7QZ0.gifv
 
 * All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". 
 
+* Before making a gif or mp4 file with your frames, either resize image number 1, or delete it, so that all frames are the same size.
+
 
 ---
 
