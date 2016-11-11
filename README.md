@@ -43,6 +43,18 @@ If you wish to continue where you left off, make sure you save the frames that a
 `num_frames`: The total number of frames/images you want the script to create.
 
 ---
+
+# MP4/GIF Making: 
+
+Navigate to your output directory and run: 
+
+`convert *.png name.mp4`
+
+or 
+
+`convert *.png name.gif`
+
+---
  
 #Troubleshooting
 
@@ -81,18 +93,6 @@ https://i.imgur.com/Jkd7QZ0.gifv
 
 * All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". 
 
-
----
-
-# MP4/GIF Making: 
-
-Navigate to your output directory and run: 
-
-`convert *.png name.mp4`
-
-or 
-
-`convert *.png name.gif`
 
 ---
 
