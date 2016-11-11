@@ -84,13 +84,17 @@ https://i.imgur.com/Jkd7QZ0.gifv
 
 ---
 
-# Free and Open Source Gif/Video Making Tools: 
+# MP4/GIF Making: 
 
-These tools are for putting your frames together into a video or gif. There are plenty of tools that exist for gif and video creation, so use whatever works well for you.
+Navigate to your output directory and run: 
 
-* Windows and OSX: http://instagiffer.com
+`convert *.png name.mp4`
 
-* Linux: https://www.ffmpeg.org
+or 
+
+`convert *.png name.gif`
+
+---
 
 For editing all the frames at once with the same settings: 
 
