@@ -64,6 +64,10 @@ https://gfycat.com/HighlevelThinIndianpangolin
 
 GIMP Auto-Color: https://gfycat.com/AfraidAcademicGnu
 
+Fast-Neural-Style out at 37.5 zoom:
+
+https://i.imgur.com/Jkd7QZ0.gifv
+
 
 ---
 
