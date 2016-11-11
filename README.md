@@ -54,7 +54,7 @@ https://i.imgur.com/1880gPU.gifv
 
 Zoom value of 37.5:
 
-https://gfycat.com/DirectGloomyGar
+https://gfycat.com/HighlevelThinIndianpangolin
 
 GIMP Auto-Color: https://gfycat.com/AfraidAcademicGnu
 
