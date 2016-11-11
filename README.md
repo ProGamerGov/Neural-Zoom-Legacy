@@ -22,7 +22,7 @@ Copy this script to neural-style directory, then run:
 
 `./neural-zoom.sh input_file style_file zoom_value rotation_value num_frames`
 
-Or if you are using [Fast-Neural-Style](), run: 
+Or if you are using [Fast-Neural-Style](https://github.com/jcjohnson/fast-neural-style), run: 
 
 `./neural-zoom.sh input_file model_file zoom_value rotation_value num_frames`
 
@@ -49,6 +49,7 @@ If you wish to continue where you left off, make sure you save the frames that a
 If you face a permission error, try using chmod to fix the issue: 
 
 `chmod u+x ./neural-zoom.sh`
+
 `chmod u+x ./fast-neural-zoom.sh`
 
 --- 
