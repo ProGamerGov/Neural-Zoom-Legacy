@@ -9,6 +9,12 @@ ImageMagick can be installed on Ubuntu with:
 
 `sudo apt-get install imagemagick`
 
+FFmpeg for making gifs and mp4 format videos with ImageMagick: 
+
+`sudo apt-get install ffmpeg`
+
+
+
 ---
 
 # Usage
