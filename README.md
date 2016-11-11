@@ -20,7 +20,11 @@ FFmpeg for making gifs and mp4 format videos with ImageMagick:
 # Usage
 Copy this script to neural-style directory, then run:
 
-`./neural_zoom.sh input_file style_file zoom_value rotation_value num_frames`
+`./neural-zoom.sh input_file style_file zoom_value rotation_value num_frames`
+
+Or if you are using [Fast-Neural-Style](), run: 
+
+`./neural-zoom.sh input_file model_file zoom_value rotation_value num_frames`
 
 The script is capable of continuing where you left off if it sees all the previous images up to where you stopped. So it can be a good idea to save all of the images it produces, so that you can always make your gifs/mp4 videos longer.
 
@@ -44,7 +48,8 @@ If you wish to continue where you left off, make sure you save the frames that a
 
 If you face a permission error, try using chmod to fix the issue: 
 
-`chmod u+x ./neural_zoom.sh`
+`chmod u+x ./neural-zoom.sh`
+`chmod u+x ./fast-neural-zoom.sh`
 
 --- 
 
