@@ -6,7 +6,7 @@ for f in * ; do mv "$f" "0""$f" ; done
 
 convert ${output}*.png a.gif
 
-convert *.png .mp4
+convert *.png video.mp4
 
 #convert *.png a.gif
 #convert *.png a.mp4
