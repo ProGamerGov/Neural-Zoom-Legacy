@@ -24,11 +24,8 @@ main(){
     # 4. Zoom value
     zoom=$3
 
-    #5. Rotation value
-    rotation_value=$4
-
-    #6. Number of frames
-    num_frames=$5
+    #5. Number of frames
+    num_frames=$4
 
 ###############################################
 
@@ -39,7 +36,6 @@ out_file1="${v_frames}_${clean_name}.png"
 neural_style $input $style $out_file1
 
 ###############################################
-
 
 #Get the width and height  
 width=`convert "${v_frames}_${clean_name}.png" -format "%w" info:`
@@ -58,7 +54,7 @@ do
 
 input=$outfile
 
-convert -rotate $rotation_value -gravity center -crop "$widthcrop"x"$heightcrop"+0+0 $out_file "${v_frames}_${clean_name}.png"
+convert -gravity center -crop "$widthcrop"x"$heightcrop"+0+0 $out_file "${v_frames}_${clean_name}.png"
 input="${v_frames}_${clean_name}.png"
 v_frames=`echo $v_frames 1 | awk '{print $1+$2}'`
 out_file="${v_frames}_${clean_name}.png"
@@ -93,4 +89,4 @@ neural_style(){
     fi
     retry=0
 }
-main $1 $2 $3 $4 $5 
+main $1 $2 $3 $4
