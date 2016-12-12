@@ -30,7 +30,7 @@ The script is capable of continuing where you left off if it sees all the previo
 
 All of the frames after being run through Neural-Style can be found inside a folder the script creates called "output". 
 
-If you wish to continue where you left off, make sure you save the frames that are outputted into the Neural-Style directory in additon to the frames saved in the output directory. You can also continue where you left off by simply using your last frame as your new content image.
+If you wish to continue where you left off, past the contents of the "output" which contains the uncropped images, into your Neural-Style directory. ~~make sure you save the frames that are outputted into the Neural-Style directory in additon to the frames saved in the output directory.~~  You can also continue where you left off by simply using your last frame as your new content image.
 
 ---
 
