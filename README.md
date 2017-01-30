@@ -84,6 +84,9 @@ Fast-Neural-Style out at 37.5 zoom:
 
 https://i.imgur.com/Jkd7QZ0.gifv
 
+Cosmic Zoom: 
+
+https://gfycat.com/SandySarcasticAphid
 
 ---
 
