@@ -98,7 +98,9 @@ https://gfycat.com/SandySarcasticAphid
 
 # Known Issues
 
-* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". If you start from where you left off, it may crop the orginal full sized frames, so always back up the folder containing the full sized frames before starting the script again. 
+* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". 
+
+* If you start from where you left off, it may crop the orginal full sized frames, so always back up the folder containing the full sized frames before starting the script again. Because of this, the cropped frames seem to be able to be replaced by the non cropped frames, with no issue. Meaning you only have to save the uncropped frames. 
 
 * Before making a gif or mp4 file with your frames, either resize image number 1, or delete it, so that all frames are the same size.
 
