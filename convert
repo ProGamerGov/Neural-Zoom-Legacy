@@ -1,6 +1,7 @@
 #Add another 0 prefix to the images, so that ImagickMagick correctly recognizes the image order
 for f in * ; do mv "$f" "0""$f" ; done
 
+#You may have to manually add leading zeros to tiles 0-9 before or after running the above code.
 
 #Imagemagick
 
