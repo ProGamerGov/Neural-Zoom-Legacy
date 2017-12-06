@@ -1,7 +1,7 @@
 # Neural-Zoom
 ---
 
-#Requirements
+# Requirements
 
 [Neural-Style](https://github.com/jcjohnson/neural-style) or a [similar style transfer system](https://github.com/jcjohnson/neural-style/wiki/Similar-to-Neural-Style).
 
@@ -34,7 +34,7 @@ If you wish to continue where you left off, past the contents of the "output" wh
 
 ---
 
-#Arguments
+# Arguments
 
 `zoom_value`: The number of pixels subtracted from the width and height of your initial content image between each "frame".
 
@@ -54,7 +54,7 @@ or
 
 ---
  
-#Troubleshooting
+# Troubleshooting
 
 If you face a permission error, try using chmod to fix the issue: 
 
@@ -64,7 +64,7 @@ If you face a permission error, try using chmod to fix the issue:
 
 --- 
 
-#Example Outputs
+# Example Outputs
 
 https://i.imgur.com/UCWl54o.gifv
 
@@ -90,9 +90,9 @@ https://gfycat.com/SandySarcasticAphid
 
 ---
 
-#Known Issues
+# Known Issues
 
-* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". 
+* All the frames used for cropping, are dumped into your Neural-Style directory, while all the full sized frames are saved in their own folder/directory inside the Neural-Style directory called, "output". If you start from where you left off, it may crop the orginal full sized frames, so always back up the folder containing the full sized frames before starting the script again. 
 
 * Before making a gif or mp4 file with your frames, either resize image number 1, or delete it, so that all frames are the same size.
 
