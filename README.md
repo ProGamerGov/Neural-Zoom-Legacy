@@ -22,6 +22,10 @@ Copy this script to neural-style directory, then run:
 
 `./neural-zoom.sh input_file style_file zoom_value num_frames`
 
+An example of running the script would be:
+
+`./neural-zoom.sh input.jpg style.png 32 1000000`
+
 Or if you are using [Fast-Neural-Style](https://github.com/jcjohnson/fast-neural-style), run: 
 
 `./fast-neural-zoom.sh input_file model_file zoom_value num_frames`
@@ -39,6 +43,8 @@ If you wish to continue where you left off, past the contents of the "output" wh
 `zoom_value`: The number of pixels subtracted from the width and height of your initial content image between each "frame".
 
 `num_frames`: The total number of frames/images you want the script to create.
+
+To adjust the normal style transfer parameters, you either change the Neural-Style parameters on [lines 80-82](https://github.com/ProGamerGov/Neural-Zoom/blob/master/neural-zoom.sh#L80-L82) or the Fast-Neural-Style parameters on [lines 81-82](https://github.com/ProGamerGov/Neural-Zoom/blob/master/fast-neural-zoom.sh#L81-L82).
 
 ---
 
