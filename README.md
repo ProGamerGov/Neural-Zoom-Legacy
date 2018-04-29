@@ -62,11 +62,35 @@ or
  
 # Troubleshooting
 
+## permission errors
+
 If you face a permission error, try using chmod to fix the issue: 
 
-`chmod u+x ./neural-zoom.sh`
+```bash
+chmod u+x ./neural-zoom.sh
+chmod u+x ./fast-neural-zoom.sh
+```
 
-`chmod u+x ./fast-neural-zoom.sh`
+## cache resources exhausted
+
+The tool `ImageMagick` is intended for network use, and so comes with a resource limit policy file to prevent attacks.  The default policy file in some linuxes, such as `ubuntu`, [has settings too small for image to video work](https://github.com/ImageMagick/ImageMagick/issues/396).
+
+This is probably the problem if you see errors of this form:
+
+```
+convert-im6.q16: DistributedPixelCache '127.0.0.1' @ error/distribute-cache.c/ConnectPixelCacheServer/244.
+convert-im6.q16: cache resources exhausted `81_chicago.jpg' @ error/cache.c/OpenPixelCache/3945.
+```
+
+To fix this, alter your policy file.  Assuming `ImageMagick 6` and the text editor `nano`, you may
+
+```bash
+nano -w /etc/ImageMagick-6/policy.xml
+```
+
+Then, [as described in this comment](https://github.com/ImageMagick/ImageMagick/issues/396#issuecomment-319569255), near the top of the `<policymap>` tag, comment out the top block of subtags, the `<policy>` tags for `temporary-path`, `memory`, `map`, `area`, `disk`, `file`, `thread`, `throttle`, and `time`.
+
+If this is on a server being used over the network, set to larger limits instead of commenting out.
 
 --- 
 
