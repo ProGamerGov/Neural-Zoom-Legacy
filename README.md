@@ -50,7 +50,29 @@ To adjust the normal style transfer parameters, you either change the Neural-Sty
 
 # MP4/GIF Making: 
 
-Navigate to your output directory and run: 
+First, use this `bash` script (modified from [here](https://stackoverflow.com/a/3700146/763127)) to rename your frames to have leading zeroes, so that `ffmpeg` will place them in the correct order.  This script will clone all the frames into a new directory.  (change it to `mv` if you don't want that, but, this is useful for postprocessing without editing the originals.)
+
+Alter the script for the correct postfix for your content, and target directory for your system.
+
+```bash
+#!/bin/bash
+
+postfix="_chicago.png"
+targetDir="./renamed_frames"
+paddingLength=8
+
+for file in [0-9]*${postfix}; do
+
+  # strip the postfix off the file name
+  number=${file%$postfix}
+
+  # copy to a new name with padded zeros in a new folder
+  cp ${file} "$targetDir"/$(printf %0${paddingLength}d$postfix $number)
+
+done
+```
+
+Next, navigate to your output directory and run: 
 
 `convert *.png name.mp4`
 
